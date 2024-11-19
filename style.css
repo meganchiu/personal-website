@@ -1,15 +1,28 @@
+body {
+  margin: 0 auto;
+  background-color: bisque;
+}
+
 header {
-  background-color: #f5aaaa;
+  background-color: olivedrab;
+  position: fixed;
   width: 100%;
-  position: relative;
-  top: -20px;
-  left: -20px;
-  text-align: center;
+  top: 0;
   z-index: 10;
+  text-align: center;
 }
 
 main {
-  top: 80px;
+  margin: 110px auto;
+}
+
+section {
+  margin: 40px;
+  background-color: palegoldenrod;
+  border: 1px dotted rebeccapurple;
+  height: auto;
+  width: auto;
+  line-height: 1.5;
 }
 
 li {
@@ -18,19 +31,41 @@ li {
   display: inline-block;
 }
 
-a {
-  color: blue;
+.nav-links {
+  color: black;
   font-weight: bolder;
 }
 
+.repo-link {
+  color: blueviolet;
+}
+
 h1 {
-  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+h3 {
+  margin-top: 0;
+  text-align: center;
 }
 
 img {
-  height: 100px;
-  width: 180px;
+  height: 160px;
+  width: 250px;
   margin: 20px;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #about-me-img1,
