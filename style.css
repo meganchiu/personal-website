@@ -1,10 +1,15 @@
 header {
   background-color: #f5aaaa;
   width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
+  position: relative;
+  top: -20px;
+  left: -20px;
   text-align: center;
+  z-index: 10;
+}
+
+main {
+  top: 80px;
 }
 
 li {
@@ -16,4 +21,23 @@ li {
 a {
   color: blue;
   font-weight: bolder;
+}
+
+h1 {
+  margin: 20px;
+}
+
+img {
+  height: 100px;
+  width: 180px;
+  margin: 20px;
+}
+
+#about-me-img1,
+#about-me-img3 {
+  float: left;
+}
+
+#about-me-img2 {
+  float: right;
 }
