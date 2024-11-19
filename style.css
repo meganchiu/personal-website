@@ -1,0 +1,19 @@
+header {
+  background-color: #f5aaaa;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  text-align: center;
+}
+
+li {
+  margin: 20px;
+  font-size: 25px;
+  display: inline-block;
+}
+
+a {
+  color: blue;
+  font-weight: bolder;
+}
