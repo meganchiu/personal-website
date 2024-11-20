@@ -1,78 +1,100 @@
 body {
-  margin: 0 auto;
-  background-color: bisque;
+  background-color: olivedrab;
 }
 
 header {
-  background-color: olivedrab;
   position: fixed;
+  height: 100px;
   width: 100%;
+  background-color: darkolivegreen;
   top: 0;
-  z-index: 10;
+  left: 0;
+  padding-top: 15px;
+}
+
+nav {
   text-align: center;
 }
 
-main {
-  margin: 110px auto;
-}
-
-section {
-  margin: 40px;
-  background-color: palegoldenrod;
-  border: 1px dotted rebeccapurple;
-  height: auto;
-  width: auto;
-  line-height: 1.5;
-}
-
 li {
-  margin: 20px;
-  font-size: 25px;
   display: inline-block;
+  margin: 5px;
 }
 
 .nav-links {
   color: black;
-  font-weight: bolder;
+  font-size: 30px;
+  margin: 25px;
 }
 
-.repo-link {
-  color: blueviolet;
+.nav-links:hover {
+  color: white;
 }
 
-h1 {
-  padding: 30px;
-  text-align: center;
-  font-size: 50px;
-}
-
-h2 {
-  font-size: 35px;
-  text-align: center;
-  margin: 10px auto;
-}
-
-h3 {
-  margin-top: 0;
-  text-align: center;
-}
-
-img {
-  height: 160px;
+#about-me-img {
+  height: 250px;
   width: 250px;
-  margin: 20px;
+  float: right;
+  margin: 10px 0 10px 10px;
 }
 
-p {
-  margin-left: 20px;
-  margin-right: 20px;
+main {
+  margin-top: 150px;
+  display: block;
+}
+
+main h1 {
+  font-size: 36px;
+}
+
+p.intro {
+  font-size: 25px;
+}
+
+h3.inspirational-quote {
+  display: block;
+  margin-top: 200px;
+  font-style: italic;
+  font-size: 40px;
+  padding: 10px;
+  background-color: lightsteelblue;
 }
 
 #about-me-img1,
 #about-me-img3 {
-  float: left;
+  float: right;
 }
 
 #about-me-img2 {
-  float: right;
+  float: left;
+}
+
+#about-me-img1,
+#about-me-img2,
+#about-me-img3 {
+  height: 180px;
+  width: 240px;
+  margin: 30px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+h1.about-me {
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+section.project {
+  background-color: bisque;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 15px;
+}
+
+h1.portfolio {
+  font-size: 36px;
+  text-align: center;
 }
