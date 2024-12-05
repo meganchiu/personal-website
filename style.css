@@ -1,100 +1,72 @@
+* {
+  font-size: 16px;
+}
+
 body {
-  background-color: olivedrab;
+  background-color: #84a98c;
 }
 
 header {
   position: fixed;
-  height: 100px;
+  height: 275px;
   width: 100%;
-  background-color: darkolivegreen;
+  background-color: #cad2c5;
   top: 0;
   left: 0;
-  padding-top: 15px;
-}
-
-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
 li {
   display: inline-block;
-  margin: 5px;
+  justify-items: center;
+  padding: 5px;
 }
 
 .nav-links {
   color: black;
-  font-size: 30px;
   margin: 25px;
+  text-decoration: none;
+  font-size: 4rem;
+  font-family: "Montserrat";
 }
 
 .nav-links:hover {
   color: white;
 }
 
-#about-me-img {
-  height: 250px;
-  width: 250px;
-  float: right;
-  margin: 10px 0 10px 10px;
-}
-
 main {
-  margin-top: 150px;
-  display: block;
+  margin-top: 315px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 500px 500px 500px;
+  grid-gap: 90px;
+  justify-items: center;
+  margin-bottom: 95px;
 }
 
-main h1 {
-  font-size: 36px;
+section.intro-section {
+  border: 1px solid black;
+  height: 525px;
+  width: 400px;
+  justify-content: center;
+  background-color: burlywood;
+  padding: 25px;
 }
 
-p.intro {
-  font-size: 25px;
-}
-
-h3.inspirational-quote {
-  display: block;
-  margin-top: 200px;
-  font-style: italic;
-  font-size: 40px;
-  padding: 10px;
-  background-color: lightsteelblue;
-}
-
-#about-me-img1,
-#about-me-img3 {
-  float: right;
-}
-
-#about-me-img2 {
-  float: left;
-}
-
-#about-me-img1,
-#about-me-img2,
-#about-me-img3 {
-  height: 180px;
-  width: 240px;
-  margin: 30px;
-  border-radius: 20px;
-  display: inline-block;
-}
-
-h1.about-me {
+section.intro-text {
+  font-family: "Nunito", sans-serif;
   text-align: center;
 }
 
-h2 {
-  font-size: 30px;
+h1 {
+  font-size: 5rem;
 }
 
-section.project {
-  background-color: bisque;
+#about-me-img-1, #about-me-img-2 {
+  height: 100%;
+  width: 100%;
   border-radius: 20px;
-  margin: 20px;
-  padding: 15px;
 }
 
-h1.portfolio {
-  font-size: 36px;
-  text-align: center;
-}
