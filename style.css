@@ -34,21 +34,20 @@ nav a {
 }
 
 main {
-  margin-top: 350px;
+  margin-top: 340px;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 500px 500px 500px;
-  grid-gap:30px;
+  grid-template-rows: 550px 550px 550px;
+  grid-gap: 5px;
   justify-items: center;
-  margin-bottom: 30px;
 }
 
 section.intro-section {
   border: 1px solid black;
   justify-content: center;
   background-color: burlywood;
-  padding: 10px;
-  width: 80%;
+  height: 480px;
+  width: 350px;
 }
 
 section.intro-text {
@@ -63,10 +62,32 @@ h1 {
 
 p {
   font-size: 1.1rem;
-}
-#about-me-img-1, #about-me-img-2 {
-  height: 100%;
-  width: 100%;
-  border-radius: 20px;
+  margin: 10px;
 }
 
+#about-me-img-1, #about-me-img-2 {
+  height: 450px;
+  width: 320px;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+@media screen and (min-width: 481px) {
+  * {
+    font-size: 16px;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+  }
+  a {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+}
