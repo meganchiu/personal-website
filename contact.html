@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Megan Chiu</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="javascript.js"></script>
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cedarville+Cursive&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cedarville+Cursive&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="./javascript.js" defer></script>
   </head>
   <body>
     <header>
       <nav id="header-links">
-        <a class="nav-links" href="home.html">Home</a>
-        <a class="nav-links" href="about.html">About</a>
-        <a class="nav-links" href="portfolio.html">Portfolio</a>
-        <a class="nav-links" href="contact.html">Contact</a>
+        <a class="nav-links" href="./home.html">Home</a>
+        <a class="nav-links" href="./about.html">About</a>
+        <a class="nav-links" href="./portfolio.html">Portfolio</a>
+        <a class="nav-links" href="./contact.html">Contact</a>
       </nav>
     </header>
-    <main>
-      <section class="project">
+    <main id="main-contact">
+      <section class="contact-container">
+        <h1>Contact Me Below:</h1>
+        <form id="form">
+          <div>
+            <label for="fname">First Name:</label><br />
+            <input id="fname" type="text" name="fname" required/>
+          </div>
+          <div>
+              <label for="lname">Last Name:</label><br />
+              <input id="lname" type="text" name="lname" required/>
+            </div>
+          <div>
+            <label for="email">Email:</label><br />
+            <input id="email" type="text" name="email" required/>
+          </div>
+          <div>
+            <label for="message">Your Message:</label><br />
+            <textarea id="message" name="message" rows="10" cols="60" required></textarea>
+          </div>
+          <button type="submit" id="submit">Submit</button>
+        </form>
       </section>
     </main>
   </body>

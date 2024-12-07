@@ -25,7 +25,7 @@ nav a {
   justify-content: center;
   color: black;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-family: "Montserrat";
 }
 
@@ -34,12 +34,42 @@ nav a {
 }
 
 main {
-  margin-top: 160px;
+  margin-top: 210px;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 550px 550px 550px;
   grid-gap: 5px;
   justify-items: center;
+}
+
+#main-contact {
+  margin-top: 100px;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+label {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
 }
 
 section.intro-section {
@@ -48,6 +78,7 @@ section.intro-section {
   background-color: burlywood;
   height: 480px;
   width: 350px;
+  margin-bottom: 10px;
 }
 
 section.intro-text {
@@ -58,6 +89,12 @@ section.intro-text {
 h1 {
   font-size: 4rem;
   margin-bottom: -5px;
+}
+
+#success-message {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
 }
 
 p {
@@ -91,10 +128,19 @@ p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 170px;
   }
 
   nav {
     display: flex;
     justify-content: space-around;
+  }
+
+  form {
+    margin: 25px;
+  }
+
+  #fname {
+    width: 60;
   }
 }
