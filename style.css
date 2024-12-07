@@ -8,7 +8,7 @@ body {
 
 header {
   position: fixed;
-  height: 170px;
+  height: 230px;
   width: 100%;
   background-color: #cad2c5;
   top: 0;
@@ -25,7 +25,7 @@ nav a {
   justify-content: center;
   color: black;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "Montserrat";
 }
 
@@ -42,8 +42,10 @@ main {
   justify-items: center;
 }
 
-#main-contact {
-  margin-top: 100px;
+#main-contact, #main-about {
+  margin-top: 230px;
+  margin-bottom: 25px;
+  height: 100vh;
 }
 
 .contact-container{
@@ -91,6 +93,16 @@ h1 {
   margin-bottom: -5px;
 }
 
+h1.about-me {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.hobby h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
 #success-message {
   font-size: 2rem;
   text-align: center;
@@ -109,6 +121,26 @@ p {
   margin: 15px;
 }
 
+.hobby-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+section.hobby {
+  border-radius: 25px;
+  background-color: burlywood;
+  margin: 10px;
+  width: 430px;
+  height: auto;
+  justify-items: center;
+}
+
+.hobby img {
+  width: 390px;
+  height: 300px;
+}
+
 @media screen and (min-width: 481px) {
   * {
     font-size: 16px;
@@ -117,7 +149,7 @@ p {
   header {
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 60px;
   }
 
   a {
@@ -142,5 +174,27 @@ p {
 
   #fname {
     width: 60;
+  }
+
+  #main-contact, #main-about {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    height: 500px;
+  }
+
+  section.hobby {
+    border-radius: 25px;
+    margin: 15px;
+    width: 500px;
+    justify-items: center;
+  }
+
+  .hobby img {
+    width: 450px;
+    height: 300px;
+  }
+
+  h1.about-me {
+    margin-bottom: 10px;
   }
 }
