@@ -173,6 +173,11 @@ section.project:hover {
   height: 300px;
 }
 
+form input, textarea {
+  border: 2px solid black;
+  background-color: #cad2c5;
+}
+
 @media screen and (min-width: 481px) {
   * {
     font-size: 16px;
